@@ -7,7 +7,7 @@
 | Bluetooth Controller | BCM43142A0 |
 
 
-####Enabling Wireless using elrepo
+#### Enabling Wireless using elrepo
 
 1. sudo yum install gcc
 
