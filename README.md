@@ -23,11 +23,17 @@
 
 7. Download the specific 64bit linux driver from Broadcom website -  http://www.broadcom.com/support/802.11 (external link) (scroll down to "Linux® STA 32-bit (or 64-bit) drivers") to the Downloads Folder
 
-  1. You cannot download through wget as it needs agreement acceptance before download.
-  2. Best way is to download from different machine to external USB, mount the USB to /media/ and copy it from there to below mentioned destination.
+    - You cannot download through wget as it needs agreement acceptance before download.
+    - Best way is to download from different machine to external USB, mount the USB to /media/ and copy it from there to below mentioned destination.
 
 8. cp ~/Downloads/bcm43142/hybrid-v35_64-nodebug-pcoem-6_30_223_271.tar.gz ~/rpmbuild/SOURCES
 
 9. rpmbuild --rebuild --define 'packager anonymous' ~/wl-kmod-6_30_223_271-4.el7.elrepo.nosrc.rpm
 
 10. yum remove \*ndiswrapper\*
+
+11. sudo rpm -Uvh /home/maaraa/rpmbuild/RPMS/x86_64/kmod-wl-6_30_223_271-4.el7.local.x86_64.rpm
+
+12. sudo modprobe wl
+
+13. ip link
