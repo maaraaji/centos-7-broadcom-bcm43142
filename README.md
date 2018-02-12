@@ -1,4 +1,7 @@
 # Things to do after Centos Minimal Installation
 
-#### Product                      : HP Pavilion Notebook
-#### Wireless Network Controller  : Broadcom 43142
+| Item | Description |
+| --- | --- |
+| Product | HP Pavilion Notebook |
+| Wireless Network Controller | Broadcom 43142 |
+| Bluetooth Controller | BCM43142A0 |
