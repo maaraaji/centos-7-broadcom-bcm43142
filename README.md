@@ -23,8 +23,8 @@
 
 7. Download the specific 64bit linux driver from Broadcom website -  http://www.broadcom.com/support/802.11 (external link) (scroll down to "Linux® STA 32-bit (or 64-bit) drivers") to the Downloads Folder
 
-  a. You cannot download through wget as it needs agreement acceptance before download.
-  b. Best way is to download from different machine to external USB, mount the USB to /media/ and copy it from there to below mentioned destination.
+  1. You cannot download through wget as it needs agreement acceptance before download.
+  2. Best way is to download from different machine to external USB, mount the USB to /media/ and copy it from there to below mentioned destination.
 
 8. cp ~/Downloads/bcm43142/hybrid-v35_64-nodebug-pcoem-6_30_223_271.tar.gz ~/rpmbuild/SOURCES
 
